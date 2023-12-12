@@ -12,7 +12,7 @@ function PostDetails() {
                 if (response.ok) {
                     const json = await response.json();
                     setPost(json);
-                    console.log(post)
+                    // console.log(post)
                 }else {
                     throw response;
                 }
